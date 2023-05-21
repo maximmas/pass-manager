@@ -1,0 +1,22 @@
+{
+    "name": "maxim/pass-manager",
+    "description": "Passwords manager",
+    "autoload": {
+        "psr-4": {
+            "PassManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxim Maslov",
+            "email": "maxim.maslov.kd@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "nesbot/carbon": "^2.66"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    }
+}
